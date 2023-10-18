@@ -1,0 +1,1 @@
+import Character form './js/Character';

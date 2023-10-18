@@ -11,6 +11,6 @@
       "LabeledStatement",
       "WithStatement"
     ],
-    "eslint linebreak-style": ["error", "windows"]
+    "eslint linebreak-style": 0
   }
 }
