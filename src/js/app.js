@@ -1,1 +1,1 @@
-import Character form './js/Character';
+import Character from './js/class/Character';

@@ -6,7 +6,7 @@ export default class Character {
       'Magican',
       'Daemon',
       'Undead',
-      'Zomby',
+      'Zombie',
     ];
     if (name.length < 2 || name.length > 10) {
       throw new Error('Имя должно содержать от 2 до 10 символов');
@@ -19,8 +19,8 @@ export default class Character {
 
     this.health = 100;
     this.level = 1;
-    this.attack = null;
-    this.defence = null;
+    this.attack = undefined;
+    this.defence = undefined;
   }
 
   levelUp() {
